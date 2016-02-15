@@ -1,0 +1,96 @@
+.paneel {
+ /*display: none;*/
+    width: 1000px;
+}
+
+
+
+.knoppen {
+ overflow: hidden;   
+    border-radius: 5px;
+    
+    background-color: black;
+    height: 50px;
+    width: 1000px;
+    padding: 30px 8px 8px 8px;
+    
+}
+
+.knoppen li {
+ list-style-type: none;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.knoppen li.actief {
+    
+ background-color: aqua;
+ 
+ 
+    
+}
+
+.paneel.actief {
+    display: block !important;
+}
+
+.paneel img {
+    
+    max-width: 100%;
+    
+}
+
+body {
+    
+    background-color: azure;
+    background-image: url(http://www.pptbackgrounds.org/uploads/soccer-sports-backgrounds-wallpapers.jpg);
+}
+
+
+#oranje {
+    width: 500px;
+    height: 300px;
+}
+
+#boer {
+    width: 500px;
+    height: 300px;
+}
+
+#hazard {
+width: 500px;
+    height: 300px;
+}
+
+#ronaldo {
+width: 500px;
+    height: 300px;
+}
+
+h1:hover {
+    color: blue;
+ 
+}
+
+
+a {
+ text-decoration: none;
+    font-size: 23px;
+    padding: 53px;
+    color: white;
+
+    
+}
+
+a:hover {
+ text-decoration: underline;   
+    color: orange;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    
+}
